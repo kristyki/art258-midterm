@@ -2,6 +2,15 @@
 * {
   box-sizing: border-box;
 }
+@mixin button {
+  border-radius: 2.5rem;
+  background-color: #13d7e8;
+  color: #fff;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  font-size: 1rem;
 body {
+  color: red;
   font-family: 'Raleway', sans-serif;
 }
