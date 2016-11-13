@@ -5,16 +5,20 @@
 }
 
 @mixin button {
-  border-radius: 2.5rem;
-  background-color: #13d7e8;
+  background-color: #a1a1a1;
   color: #fff;
-  width: 2.5rem;
+  width: 10rem;
   height: 2.5rem;
   border: 0;
   font-size: 1rem;
 }
 
 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
   list-style: none;
 }
 
@@ -22,4 +26,28 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   font-family: 'Raleway', sans-serif;
+}
+
+button {
+  @include button;
+}
+
+.main-nav {
+  margin: 0 auto;
+  background: #a1a1a1;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+}
+
+nav li {
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
 }
