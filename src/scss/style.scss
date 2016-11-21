@@ -18,6 +18,16 @@ a {
   color: #fff;
 }
 
+.main-nav a.hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.main-nav a.active {
+  text-decoration: underline;
+  color: #000;
+}
+
 ul {
   list-style: none;
 }
