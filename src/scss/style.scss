@@ -18,28 +18,22 @@ a {
   color: #fff;
 }
 
-.main-nav a.hover {
-  text-decoration: underline;
-  color: #000;
-}
-
-.main-nav a.active {
-  text-decoration: underline;
-  color: #000;
-}
-
 ul {
   list-style: none;
 }
 
 body {
   margin: 0 auto;
-  padding: 0 20px;
   font-family: 'Raleway', sans-serif;
 }
 
 button {
   @include button;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
 }
 
 .main-nav {
@@ -60,4 +54,14 @@ nav li {
   justify-content: space-between;
   width: 100%;
   text-align: center;
+}
+
+.main-nav a.hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.main-nav a.active {
+  text-decoration: underline;
+  color: #000;
 }
