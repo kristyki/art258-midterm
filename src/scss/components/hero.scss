@@ -1,9 +1,10 @@
 .hero {
   display: flex;
-
+  
   &__header-image {
-    // position: absolute;
-    width: 100%;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
   }
 
   &__tagline {
