@@ -1,19 +1,23 @@
 .hero {
   display: flex;
 
-  &__header-image {
-    position: relative;
-    margin: 0;
-    width: 100%;
-  }
-
   &__tagline {
     position: absolute;
-    top: 50px;
-    left: 0;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
   }
 
   &__cta {
     position: absolute;
+    top: 60%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__header-image {
+    // position: relative;
+    margin: 0;
+    width: 100%;
   }
 }
