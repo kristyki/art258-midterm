@@ -1,8 +1,13 @@
 .button {
-  background-color: #a1a1a1;
+  background-color: $yellow;
   color: #fff;
   width: 10rem;
   height: 3rem;
   border: 0;
   font-size: 1rem;
+
+  &__a:hover {
+    font-size: 1.5rem;
+    color: $purple;
+  }
 }
