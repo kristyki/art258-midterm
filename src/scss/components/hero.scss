@@ -3,9 +3,11 @@
 
   &__tagline {
     position: absolute;
-    top: 75%;
+    top: 69%;
     left: 85%;
     transform: translate(-50%, -50%);
+
+    text-align: right;
   }
 
   &__cta {
