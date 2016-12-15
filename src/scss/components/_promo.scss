@@ -1,8 +1,14 @@
 .festi {
-  border: 1px solid red;
   width: 45%;
+  height: 50%;
+  background-image: url('../images/festival-promo.png');
+  min-height: 900px;
   float: left;
   overflow: hidden;
+
+  &__copy {
+    padding: 1rem;
+  }
 }
 
 .vol {
