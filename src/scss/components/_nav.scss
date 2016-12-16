@@ -30,4 +30,10 @@
     font-weight: bold;
     color: $purple;
   }
+
+  &__active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: $purple;
+  }
 }
