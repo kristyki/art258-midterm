@@ -2,8 +2,33 @@
   display: flex;
   justify-content: space-around;
   background: #fff;
+  padding: 3.5rem;
 
   &__sponsors {
     justify-content: space-between;
+    width: 650px;
+  }
+
+  &__sponsors02 {
+    width: 150px;
+    height: 167px;
+  }
+
+  &__sponsors03 {
+    padding: 0 3rem;
+    padding-bottom: 2.5rem;
+    width: 300px;
+    height: 100px;
+  }
+
+  &__sponsors04 {
+    padding-bottom: 1rem;
+    width: 147px;
+    height: 170px;
+  }
+
+  &__copy {
+    color: #250c35;
+    font-size: 1rem;
   }
 }
