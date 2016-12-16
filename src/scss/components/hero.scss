@@ -1,10 +1,16 @@
 .hero {
   display: flex;
+  background-image: url('../images/bondance.jpg');
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 
   &__tagline {
     position: absolute;
     top: 69%;
-    left: 85%;
+    left: 87%;
     transform: translate(-50%, -50%);
     text-align: right;
   }
@@ -12,13 +18,7 @@
   &__cta {
     position: absolute;
     top: 85%;
-    left: 85%;
+    left: 88.5%;
     transform: translate(-50%, -50%);
-  }
-
-  &__header-image {
-    margin: 0;
-    width: 100%;
-    height: 100%;
   }
 }

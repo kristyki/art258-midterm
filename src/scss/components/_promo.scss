@@ -6,9 +6,9 @@
   min-height: 68rem;
   float: left;
   overflow: hidden;
+  font-size: 1.75rem;
 
   &__title {
-    padding-top: 2rem;
     padding-left: 2rem;
   }
 
@@ -18,9 +18,10 @@
   }
 
   &__copy {
-    padding: 0 2rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
     margin-top: 0;
-    line-height: 2.5rem;
+    line-height: 2.75rem;
   }
 
   &__cta {
@@ -29,6 +30,8 @@
 }
 
 .vol {
+  padding-top: 16rem;
+  padding-left: 2rem;
   width: 55%;
   background-image: url('../images/vol-promo.png');
   background-repeat: no-repeat;
@@ -36,13 +39,18 @@
   min-height: 545px;
   float: left;
   clear: right;
+  font-size: 2rem;
 }
 
 .photo {
+  padding-top: 16rem;
+  padding-right: 2rem;
   width: 55%;
   background-image: url('../images/photo-promo.png');
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: 547px;
   float: left;
+  text-align: right;
+  font-size: 2rem;
 }
