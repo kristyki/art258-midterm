@@ -2,9 +2,21 @@
   width: 45%;
   height: 50%;
   background-image: url('../images/festival-promo.png');
-  min-height: 900px;
+  min-height: 68rem;
   float: left;
   overflow: hidden;
+
+  &__subhead {
+    // padding: 0;
+    clear: right;
+  }
+
+  &__subhead-italic {
+    // padding: 0;
+    display: inline;
+    // clear: left;
+    font-style: italic;
+  }
 
   &__copy {
     padding: 1rem;
@@ -12,7 +24,6 @@
 }
 
 .vol {
-  border: 1px solid green;
   width: 55%;
   background-image: url('../images/vol-promo.png');
   background-repeat: no-repeat;
@@ -23,11 +34,10 @@
 }
 
 .photo {
-  border: 1px solid yellow;
   width: 55%;
   background-image: url('../images/photo-promo.png');
   background-repeat: no-repeat;
   background-size: 100%;
-  min-height: 450px;
+  min-height: 547px;
   float: left;
 }
