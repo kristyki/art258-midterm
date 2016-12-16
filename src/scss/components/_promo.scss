@@ -1,4 +1,5 @@
 .festi {
+  padding-top: 2rem;
   width: 45%;
   height: 50%;
   background-image: url('../images/festival-promo.png');
@@ -6,20 +7,24 @@
   float: left;
   overflow: hidden;
 
-  &__subhead {
-    // padding: 0;
-    clear: right;
+  &__title {
+    padding-top: 2rem;
+    padding-left: 2rem;
   }
 
-  &__subhead-italic {
-    // padding: 0;
-    display: inline;
-    // clear: left;
-    font-style: italic;
+  &__subhead {
+    padding-left: 2rem;
+    margin-bottom: 0.25em;
   }
 
   &__copy {
-    padding: 1rem;
+    padding: 0 2rem;
+    margin-top: 0;
+    line-height: 2.5rem;
+  }
+
+  &__cta {
+    padding: 2rem;
   }
 }
 
