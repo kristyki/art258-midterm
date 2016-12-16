@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   background: #fff;
-  padding: 3.5rem;
+  padding: 3rem;
 
   &__sponsors {
     justify-content: space-between;
@@ -29,6 +29,5 @@
 
   &__copy {
     color: #250c35;
-    font-size: 1rem;
   }
 }
