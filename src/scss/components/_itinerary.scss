@@ -1,0 +1,36 @@
+.itinerary {
+  display: flex;
+  padding: 100px;
+
+  &__heading {
+    letter-spacing: 2px;
+  }
+
+  &__left {
+    padding-left: 2rem;
+    width: 55%;
+    height: 55%;
+    float: left;
+    overflow: hidden;
+  }
+
+  &__right {
+    padding-left: 2rem;
+    width: 55%;
+  }
+
+  &__ul {
+    list-style: none;
+  }
+
+  &__li {
+    line-height: 2rem;
+  }
+
+  &__cta {
+    display: flex;
+    align-self: flex-end;
+    background-color: $white-trans;
+    padding: 1rem;
+  }
+}
